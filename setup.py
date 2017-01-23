@@ -24,12 +24,14 @@ setup(
     url='https://github.com/7ws/python-crystalball',
     author='Evandro Myller',
     author_email='emyller@7ws.co',
+    license='MIT',
 
     # Classifiers
     # See https://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
         'Development Status :: 3 - Alpha',  # TODO: Make it production-ready
         'Intended Audience :: Developers',
+        'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3.6',
         'Topic :: Text Processing',
         'Topic :: Utilities',
