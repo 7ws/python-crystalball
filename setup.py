@@ -14,4 +14,8 @@ setup(
 
     # Package finding
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),
+
+    # Testing
+    setup_requires=['pytest-runner'],
+    tests_require=['coverage', 'pytest'],
 )
